@@ -1,20 +1,107 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
+<html lang="en-us">
+  <head>
     <meta charset="UTF-8">
-    <title>VS Code + GitHub.. Azure tutorial</title>
-    <link rel="stylesheet" href="./css/style.css">
-</head>
+    <title>Azure github by shah0150</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">Azure github</h1>
+      <h2 class="project-tagline">Visual Studio Code + GitHub + Azure Tutorial</h2>
+      <a href="https://github.com/shah0150/Azure_GitHub" class="btn">View on GitHub</a>
+      <a href="https://github.com/shah0150/Azure_GitHub/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/shah0150/Azure_GitHub/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
 
-<body>
+    <section class="main-content">
+      <h1>
+<a id="visual-studio-code--github--azure-tutorial" class="anchor" href="#visual-studio-code--github--azure-tutorial" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><b>Visual Studio Code + GitHub + Azure Tutorial</b>
+</h1>
 
-    <div class="first">
+<p>How to upload web site to <b>Microsoft Azure</b> using Visual Studio Code and GitHub public/private repository.</p>
 
-        <h1 id="hello">Hello MAD&amp;D from Microsoft Azure...</h1>
-        <h4>This web site is uploaded by <a href="http://adesh.co.nf/" target="_blank"><b>Adesh Shah</b></a> via <b>Visual Studio 2015</b> and <b>GitHub</b> &hearts;</h4>
+<p>Requirements for this tutorials:</p>
 
-    </div>
-</body>
+<ul>
+<li>DreamSpark, MSDN or BizSpark subscription, or any business account</li>
+<li>Visual Studio Code</li>
+<li>Git source control installed on your PC/Mac/Linux machine </li>
+</ul>
 
+<p>... and good luck with this tutorial!</p>
+
+<p><br></p>
+
+<h1>
+<a id="step-1-repository" class="anchor" href="#step-1-repository" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Step 1. Repository</h1>
+
+<p>Make new repository on your GitHub account or you can use this repo with the pull request.</p>
+
+<p><br></p>
+
+<h1>
+<a id="step-2-make-your-web-site-or-edit-this" class="anchor" href="#step-2-make-your-web-site-or-edit-this" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Step 2. Make your web site or edit this</h1>
+
+<p>Edit code from this repo, or make your own simple web site that you want to upload to Microsoft Azure cloud following this tutorial.</p>
+
+<p><br></p>
+
+<h1>
+<a id="step-3-make-web-app-on-azure" class="anchor" href="#step-3-make-web-app-on-azure" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Step 3. Make Web App on Azure</h1>
+
+<p>Sign into your <a href="https://portal.azure.com/">Azure Portal</a> and than go to make a new Web App like this:</p>
+
+<ul>
+<li>In Azure portal navigate to <b>New &gt; Web + Mobile</b>
+</li>
+<li>Choose <b>Web App</b>
+</li>
+<li>Enter <b>App name</b> for your new Web App</li>
+<li>
+<b>Choose Subscription</b> (DreamSpark, MSDN, BizSpark)</li>
+<li>Pick your <b>Resource group</b> (new or existing one)</li>
+<li>Set <b>App service plan/Location</b>
+</li>
+<li>Pin to dashboard (optional)</li>
+<li>Click <b>Create</b>
+</li>
+</ul>
+
+<p><br></p>
+
+<h1>
+<a id="step-4-connect-app-with-github" class="anchor" href="#step-4-connect-app-with-github" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Step 4. Connect App with GitHub</h1>
+
+<p>Find your new Web App on dashboard or in resource group and make sure that it is running, click on it and navigate to <b>All settings</b>.
+Under All settings find and navigate to: 
+<b> Publishing &gt;  Deployment Source &gt;  Choose Source</b></p>
+
+<p>In Choose source click on <b>GitHub</b>, after that you need to make sure that Azure is connected with your GitHub account... to do that go to <b>Authorization</b> and follow simple steps to make sure GitHub is now authorised with your Azure account.
+Than thhe under <b>Choose project</b> choose which repository/project from GitHub you want to publish on Azure... and click <b>OK</b>.</p>
+
+<p>Make final changes on your local project/web site commit and do push to GitHub from <b>Visual Studio Code's</b> Git integrated tools.
+Finally navigate to your Web App URL, if you don't know URL of your Web App. URL is simply a combination of: <b>Web App name + .azurewebsites.net </b></p>
+
+<p><br></p>
+
+<h1>
+<a id="congrats-now-you-have-your-web-site-successfully-published-on-microsoft-azure" class="anchor" href="#congrats-now-you-have-your-web-site-successfully-published-on-microsoft-azure" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Congrats! Now you have your web site successfully published on Microsoft Azure.</h1>
+
+<p>Thank you for your attention ♥ ... and I hope you find this tutorial helpful for you.</p>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/shah0150/Azure_GitHub">Azure github</a> is maintained by <a href="https://github.com/shah0150">shah0150</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+  
+  </body>
 </html>
